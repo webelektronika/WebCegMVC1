@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCegMVC1", "WebCegMVC1\WebCegMVC1.csproj", "{2E778FAD-0170-49BB-BC44-3BB17D6DA8B0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "peldaDB", "peldaDB\peldaDB.sqlproj", "{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E778FAD-0170-49BB-BC44-3BB17D6DA8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E778FAD-0170-49BB-BC44-3BB17D6DA8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E778FAD-0170-49BB-BC44-3BB17D6DA8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E778FAD-0170-49BB-BC44-3BB17D6DA8B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB2B84F-E6C7-4B73-8ED5-8308E84D2EFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14E794F4-D5E4-4229-A58A-EEECEB504C73}
+	EndGlobalSection
+EndGlobal

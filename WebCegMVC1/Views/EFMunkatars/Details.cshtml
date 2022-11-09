@@ -1,0 +1,42 @@
+﻿@model WebCegMVC1.Models.modellMunkatars
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>modellMunkatars</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nev)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nev)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.varos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.varos)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.beosztas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.beosztas)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nyelvtudas)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nyelvtudas)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
